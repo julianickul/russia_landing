@@ -1,0 +1,12 @@
+.title_size_l {
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 44px;
+}
+
+@media only screen and (min-width: 768px) {
+	.title_size_l {
+		font-size: 96px;
+		line-height: 93px;
+	}
+}

@@ -1,0 +1,11 @@
+.comment__userpic {
+	text-align: center;
+	margin: 0 auto 16px;
+	order:1;
+}
+@media screen and (min-width: 1024px) {
+	.comment__userpic {
+		margin:0 0 42px;
+		text-align: left;
+	}
+}
