@@ -1,7 +1,0 @@
-.definition_type_inline dt,
-.definition_type_inline dd {
-	display: inline;
-}
-.definition_type_inline dt {
-	font-weight: bold;
-}
