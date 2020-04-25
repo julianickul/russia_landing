@@ -1,0 +1,14 @@
+.places__item {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 24px;
+	margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+	.places__item {
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 50px 30px;
+		margin-bottom: 84px;
+	}
+}

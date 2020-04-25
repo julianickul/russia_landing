@@ -1,0 +1,6 @@
+@import './__caption/image__caption.css';
+@import './__src/image__src.css';
+
+.promo__image {
+	margin-bottom: 78px;
+}

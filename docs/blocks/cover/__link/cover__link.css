@@ -1,0 +1,40 @@
+@import './__title/cover__link__title.css';
+@import './__desc/cover__link__desc.css';
+
+.cover__link {
+	position: absolute;
+	top:0;
+	left: 0;
+	padding-top: 20px;
+	height: 100%;
+	width: 100%;
+	z-index: 3;
+	box-sizing: border-box;
+	padding-left:16px;
+	padding-right:16px;
+}
+@media screen and (min-width: 375px) {
+	.cover__link {
+		padding-top: 30px;
+	}
+}
+@media screen and (min-width: 425px) {
+	.cover__link {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-top: 0;
+	}
+}
+@media screen and (min-width: 768px) {
+	.cover__link {
+		padding-left:24px;
+		padding-right:24px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.cover__link {
+		padding-left:48px;
+		padding-right:48px;
+	}
+}
