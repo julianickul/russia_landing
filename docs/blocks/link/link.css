@@ -1,0 +1,10 @@
+@import './_style_underlined/link_style_underlined.css';
+
+.link {
+	color:#fff;
+	text-decoration: none;
+	transition: color .3s;
+}
+.link:hover {
+	color: rgba(255,255,255,.5);
+}

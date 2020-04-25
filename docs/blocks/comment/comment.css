@@ -1,0 +1,26 @@
+@import './__item/comment__item.css';
+@import './__userpic/comment__userpic.css';
+@import './__text/comment__text.css';
+@import './__username/comment__username.css';
+@import './__image/comment__image.css';
+
+.comment {
+	display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 48px;
+}
+
+@media screen and (min-width: 425px) {
+	.comment {
+		width: 382px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.comment {
+		width: 100%;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap:18px;
+	}
+}

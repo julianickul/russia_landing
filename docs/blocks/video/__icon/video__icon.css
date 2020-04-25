@@ -1,0 +1,28 @@
+.video__icon {
+	position: absolute;
+	z-index: 3;
+	top:16px;
+	left: 16px;
+	width: 30px;
+	height: 30px;
+	background: url('../../../images/icon_play.svg') no-repeat 0 0;
+	background-size: contain;
+}
+@media screen and (min-width: 375px) {
+	.video__icon {
+		top:24px;
+		left: 24px;
+	}
+}
+@media screen and (min-width: 425px) {
+	.video__icon {
+		width: 41px;
+		height: 41px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.video__icon {
+		top:30px;
+		left: 30px;
+	}
+}

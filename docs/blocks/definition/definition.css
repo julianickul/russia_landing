@@ -1,0 +1,8 @@
+@import './_type_inline/definition_type_inline.css';
+
+.definition,
+.definition dt,
+.definition dd {
+	margin: 0;
+	padding: 0;
+}
