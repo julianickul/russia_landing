@@ -1,9 +1,0 @@
-.places__image img {
-	width:100%;
-}
-@media screen and (min-width: 768px) {
-	.places__image.section_image-width_full {
-		margin-left:auto;
-		margin-right:auto;
-	}
-}
