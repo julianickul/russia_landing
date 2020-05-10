@@ -1,4 +1,6 @@
 # Россия. Демо-проверка #
+Доступно для просмотра на https://julianickul.github.io/russia_landing/
+
 ## Используемыне технологии ##
 * HTML
 * CSS
